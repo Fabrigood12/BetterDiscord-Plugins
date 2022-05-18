@@ -16,39 +16,39 @@ export const settings = {
     notifs: {
         mute: {
             enabled: true,
-            message: "Muted"
+            message: "Muteado"
         },
         unmute: {
             enabled: true,
-            message: "Unmuted"
+            message: "Desmuteado"
         },
         deafen: {
             enabled: true,
-            message: "Deafened"
+            message: "Definido"
         },
         undeafen: {
             enabled: true,
-            message: "Undeafened"
+            message: "Indefinido"
         },
         join: {
             enabled: true,
-            message: "$user joined $channel"
+            message: "$user se Unio $channel"
         },
         leave: {
             enabled: true,
-            message: "$user left $channel"
+            message: "$user se Salio de $channel"
         },
         joinSelf: {
             enabled: true,
-            message: "You joined $channel"
+            message: "Te has unido a $channel"
         },
         moveSelf: {
             enabled: true,
-            message: "You were moved to $channel"
+            message: "has sido movido a $channel"
         },
         leaveSelf: {
             enabled: true,
-            message: "You left $channel"
+            message: "te has ido de $channel"
         }
     },
     unknownChannel: "The call"
